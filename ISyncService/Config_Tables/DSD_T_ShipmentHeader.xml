@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_ShipmentHeader</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_ShipmentHeader</I>
+    </Up>
+    <Columns>
+      <Column Name="Id" Type="System.String" />
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="ShipmentDate" Type="System.Date" />
+      <Column Name="ActionType" Type="System.String" />
+      <Column Name="StartTime" Type="System.Datetime" />
+      <Column Name="EndTime" Type="System.Datetime" />
+      <Column Name="Odometer" Type="System.Int" />
+      <Column Name="Checker" Type="System.String" />
+      <Column Name="CheckerConfirm" Type="System.Int" />
+      <Column Name="CheckerConfirmTime" Type="System.Datetime" />
+      <Column Name="CheckerSignImg" Type="System.String" />
+      <Column Name="DCheckerSignImg" Type="System.String" />
+      <Column Name="Cashier" Type="System.String" />
+      <Column Name="CashierConfirm" Type="System.Int" />
+      <Column Name="CashierConfirmTime" Type="System.Datetime" />
+      <Column Name="CashierSignImg" Type="System.String" />
+      <Column Name="DCashierSignImg" Type="System.String" />
+      <Column Name="Gatekeeper" Type="System.String" />
+      <Column Name="GKConfirm" Type="System.Int" />
+      <Column Name="GKConfirmTime" Type="System.Datetime" />
+      <Column Name="GKSignImg" Type="System.String" />
+      <Column Name="DGKSignImg" Type="System.String" />
+      <Column Name="WarehouseCode" Type="System.String" />
+      <Column Name="Status" Type="System.String" />
+      <Column Name="Driver" Type="System.String" />
+      <Column Name="TruckId" Type="System.Int" />
+      <Column Name="TotalAmount" Type="System.Decimal" />
+      <Column Name="TotalWeight" Type="System.Decimal" />
+      <Column Name="WeightUnit" Type="System.Decimal" />
+      <Column Name="CreateTime" Type="System.Datetime" />
+    </Columns>
+  </Script>
+</Scripts>

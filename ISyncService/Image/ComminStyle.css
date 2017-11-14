@@ -1,0 +1,18 @@
+﻿body
+{
+    font-size:13px;
+}
+.style1
+{
+    width: 47%;
+    height: 241px;
+}
+.style2
+{
+    width: 310px;
+}
+.style3
+{
+    width: 82px;
+}
+table,tr,td{font-size:13px;}

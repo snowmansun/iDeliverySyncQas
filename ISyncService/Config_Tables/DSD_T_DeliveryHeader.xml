@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_DeliveryHeader</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_DeliveryHeader</I>
+    </Up>
+    <Columns>
+      <Column Name="DeliveryNo" Type="System.String" />
+      <Column Name="VisitId" Type="System.String" />
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="DeliveryType" Type="System.String" />
+      <Column Name="DeliveryStatus" Type="System.String" />
+      <Column Name="AccountNumber" Type="System.String" />
+      <Column Name="OrderNo" Type="System.String" />
+      <Column Name="InvoiceNo" Type="System.String" />
+      <Column Name="PONumber" Type="System.String" />
+      <Column Name="OrderDate" Type="System.DateTime" />
+      <Column Name="ActualDeliveryDate" Type="System.DateTime" />
+      <Column Name="Currency" Type="System.String" />
+      <Column Name="CustomerSignStatus" Type="System.String" />
+      <Column Name="CustomerSignDate" Type="System.DateTime" />
+      <Column Name="CustomerSignImg" Type="System.String" />
+      <Column Name="DriverSignStatus" Type="System.String" />
+      <Column Name="DriverSignDate" Type="System.DateTime" />
+      <Column Name="DriverSignImg" Type="System.String" />
+      <Column Name="StartTime" Type="System.DateTime" />
+      <Column Name="EndTime" Type="System.DateTime" />
+      <Column Name="BasePrice" Type="System.Decimal" />
+      <Column Name="Tax" Type="System.Decimal" />
+      <Column Name="Discount" Type="System.Decimal" />
+      <Column Name="NetPrice" Type="System.Decimal" />
+      <Column Name="Deposit" Type="System.Decimal" />
+      <Column Name="ActualPayment" Type="System.Decimal" />
+      <Column Name="ActualDeposit" Type="System.Decimal" />
+      <Column Name="CancelTime" Type="System.DateTime" />
+      <Column Name="CancelReason" Type="System.String" />
+      <Column Name="DeliveryNote" Type="System.String" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+
+    </Columns>
+  </Script>
+</Scripts>

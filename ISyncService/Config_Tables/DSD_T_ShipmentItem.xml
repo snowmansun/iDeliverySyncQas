@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_ShipmentItem</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_ShipmentItem</I>
+    </Up>
+    <Columns>
+      <Column Name="HeaderId" Type="System.String" />
+      <Column Name="ProductCode" Type="System.String" />
+      <Column Name="ProductUnit" Type="System.String" />
+      <Column Name="PlanQty" Type="System.Int" />
+      <Column Name="ActualQty" Type="System.Int" />
+      <Column Name="DifferenceQty" Type="System.Int" />
+      <Column Name="DifferenceReason" Type="System.String" />
+      <Column Name="CreateTime" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>

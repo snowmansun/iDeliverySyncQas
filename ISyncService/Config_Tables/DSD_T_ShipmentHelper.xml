@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_ShipmentHelper</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_ShipmentHelper</I>
+    </Up>
+    <Columns>
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="HelperCode" Type="System.String" />
+      <Column Name="Valid" Type="System.int" />
+      <Column Name="Createtime" Type="System.Datetime" />
+    </Columns>
+  </Script>
+</Scripts>

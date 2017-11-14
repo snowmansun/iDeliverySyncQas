@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_M_DeliveryHeader</Down>
+    <Columns>
+      <Column Name="DeliveryNo" Type="System.String" />
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="DeliveryType" Type="System.String" />
+      <Column Name="DeliveryStatus" Type="System.String" />
+      <Column Name="AccountNumber" Type="System.String" />
+      <Column Name="OrderNo" Type="System.String" />
+      <Column Name="InvoiceNo" Type="System.String" />
+      <Column Name="PONumber" Type="System.String" />
+      <Column Name="OrderDate" Type="System.DateTime" />
+      <Column Name="PlanDeliveryDate" Type="System.Date" />
+      <Column Name="SalesRep" Type="System.String" />
+      <Column Name="CompanyCode" Type="System.String" />
+      <Column Name="SalesOrg" Type="System.String" />
+      <Column Name="SalesOff" Type="System.String" />
+      <Column Name="PaymentType" Type="System.String" />
+      <Column Name="Currency" Type="System.String" />
+      <Column Name="PlanDeliveryQty" Type="System.String" />
+      <Column Name="DeliveryAddress" Type="System.String" />
+      <Column Name="Contact" Type="System.String" />
+      <Column Name="Telephone" Type="System.String" />
+      <Column Name="BasePrice" Type="System.Decimal" />
+      <Column Name="Tax" Type="System.Decimal" />
+      <Column Name="Discount" Type="System.Decimal" />
+      <Column Name="NetPrice" Type="System.Decimal" />
+      <Column Name="Deposit" Type="System.Decimal" />
+      <Column Name="DataSource" Type="System.String" />
+      <Column Name="DeliveryNote" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>

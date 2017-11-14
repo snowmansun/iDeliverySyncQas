@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_ARCollection</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_ARCollection</I>
+    </Up>
+    <Columns>
+      <Column Name="ID" Type="System.String" />
+      <Column Name="ebMobile__Account__c" Type="System.String" />
+      <Column Name="ebMobile__IsActive__c" Type="System.String" />
+      <Column Name="ebMobile__CollectedAmount__c" Type="System.String" />
+      <Column Name="ebMobile__CollectionDate__c" Type="System.Datetime" />
+      <Column Name="ebMobile__GUID__c" Type="System.String" />
+      <Column Name="ebMobile__OffsetNumber__c" Type="System.Decimal" />
+      <Column Name="ebMobile__OpenBalance__c" Type="System.Decimal" />
+      <Column Name="ebMobile__ReceiptNumber__c" Type="System.String" />
+      <Column Name="ebMobile__VisitID__c" Type="System.String" />
+      <Column Name="InvoiceStatus" Type="System.String" />
+      <Column Name="CustomerSignStatus" Type="System.String" />
+      <Column Name="CustomerSignDate" Type="System.Datetime" />
+      <Column Name="CustomerSignImg" Type="System.String" />
+      <Column Name="DriverSignStatus" Type="System.String" />
+      <Column Name="DriverSignDate" Type="System.Datetime" />
+      <Column Name="DriverSignImg" Type="System.String" />
+      <Column Name="CreateTime" Type="System.Datetime" />
+    </Columns>
+  </Script>
+</Scripts>

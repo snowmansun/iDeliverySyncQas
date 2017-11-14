@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_M_ShipmentVanSalesRoute</Down>
+    <Columns>
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="AccountNumber" Type="System.String" />
+      <Column Name="Status" Type="System.String" />
+      <!--<Column Name="CreateTime" Type="System.DateTime" />为了保证测试，这里先不修改-->
+    </Columns>
+  </Script>
+  <Script Version="0.0.0.37">
+    <Down Type="Assembly">Download_DSD_M_ShipmentVanSalesRoute20</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_M_ShipmentVanSalesRoute20</I>
+    </Up>
+    <Columns>
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="AccountNumber" Type="System.String" />
+      <Column Name="Status" Type="System.String" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+    </Columns>
+  </Script>
+</Scripts>

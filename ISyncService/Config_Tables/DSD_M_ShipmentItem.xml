@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_M_ShipmentItem</Down>
+    <Columns>
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="ProductCode" Type="System.String" />
+      <Column Name="ProductUnit" Type="System.String" />
+      <Column Name="PlanQty" Type="System.Int" />
+    </Columns>
+  </Script>
+</Scripts>

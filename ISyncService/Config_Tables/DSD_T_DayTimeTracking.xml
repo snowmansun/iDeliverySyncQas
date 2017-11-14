@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_DayTimeTracking</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_DayTimeTracking</I>
+    </Up>
+    <Columns>
+      <Column Name="ID" Type="System.String" />
+      <Column Name="WorkDate" Type="System.Date" />
+      <Column Name="UserCode" Type="System.String" />
+      <Column Name="TruckId" Type="System.Int" />
+      <Column Name="TrackingTime" Type="System.DateTime" />
+      <Column Name="TrackingType" Type="System.String" />
+      <Column Name="Longitude" Type="System.Decimal" />
+      <Column Name="Latitude" Type="System.Decimal" />
+      <Column Name="Odometer" Type="System.Int" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+    </Columns>
+  </Script>
+</Scripts>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_MD_ProductUOM</Down>
+    <Columns>
+      <Column Name="Id" Type="System.String" />
+      <Column Name="CreatedBy" Type="System.String" />
+      <Column Name="LastModifiedBy" Type="System.String" />
+      <Column Name="Owner" Type="System.String" />
+      <Column Name="Name" Type="System.String" />
+      <Column Name="ebMobile__IsActive__c" Type="System.String" />
+      <Column Name="ebMobile__AlternativeUnit__c" Type="System.String" />
+      <Column Name="ConversionRate__c" Type="System.Decimal" />
+      <Column Name="ebMobile__Denominator__c" Type="System.Decimal" />
+      <Column Name="ebMobile__GUID__c" Type="System.String" />
+      <Column Name="ebMobile__InternationalArticleNumber__c" Type="System.String" />
+      <Column Name="ebMobile__Numerator__c" Type="System.Decimal" />
+      <Column Name="ebMobile__ParentID__c" Type="System.String" />
+      <Column Name="ebMobile__ProductID__c" Type="System.String" />
+      <Column Name="ebMobile__ProductCode__c" Type="System.String" />
+      <Column Name="ebMobile__SAPKey__c" Type="System.String" />
+      <Column Name="ebMobile__Size__c" Type="System.String" />
+      <Column Name="ebMobile__UnitPrice__c" Type="System.Decimal" />
+      <Column Name="ebMobile__UOMCode__c" Type="System.String" />
+      <Column Name="ebMobile__Weight__c" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>

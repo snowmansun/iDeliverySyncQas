@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_TruckCheckResult</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_TruckCheckResult</I>
+    </Up>
+    <Columns>
+      <Column Name="DayTrackingId" Type="System.String" />
+      <Column Name="DetailNo" Type="System.Int" />      
+      <Column Name="CheckItemId" Type="System.Int" />
+      <Column Name="CheckResult" Type="System.String" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+    </Columns>
+  </Script>
+</Scripts>

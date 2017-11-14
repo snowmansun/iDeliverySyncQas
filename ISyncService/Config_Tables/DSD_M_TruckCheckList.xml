@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_M_TruckCheckList</Down>
+    <Columns>
+      <Column Name="Id" Type="System.Int" />
+      <Column Name="ParentId" Type="System.Int" />
+      <Column Name="Content" Type="System.String" />
+      <Column Name="Level" Type="System.Int" />
+      <Column Name="InputType" Type="System.String" />
+      <Column Name="Description" Type="System.String" />
+      <Column Name="Sequence" Type="System.Int" />
+      <Column Name="MustToDo" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>

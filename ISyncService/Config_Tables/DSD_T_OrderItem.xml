@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_OrderItem</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_OrderItem</I>
+    </Up>
+    <Columns>
+      <Column Name="ebMobile__IsActive__c" Type="System.String" />
+      <Column Name="ProductCode" Type="System.String" />
+      <Column Name="ebMobile__ItemSequence__c" Type="System.String" />
+      <Column Name="ebMobile__LineAmount__c" Type="System.Double" />
+      <Column Name="ebMobile__LineDiscAmount__c" Type="System.Double" />
+      <Column Name="ebMobile__LineNetAmount__c" Type="System.Double" />
+      <Column Name="ebMobile__LineTaxAmount__c" Type="System.Double" />
+      <Column Name="ebMobile__OrderQuantity__c" Type="System.Double" />
+      <Column Name="ebMobile__UOMCode__c" Type="System.String" />
+      <Column Name="UnitPrice" Type="System.Double" />
+      <Column Name="OrderNumber" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>

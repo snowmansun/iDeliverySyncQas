@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBest.Mobile.SyncLogic", "eBest.Mobile.SyncLogic\eBest.Mobile.SyncLogic.csproj", "{7188DDFD-314D-4BBD-8AD1-2FF1E8A268D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBest.Mobile.SyncHelper", "eBest.Mobile.SyncHelper\eBest.Mobile.SyncHelper.csproj", "{B1548BFE-AC17-425D-8ECF-DB2F62C6DA65}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ISyncService", "ISyncService\", "{AB8CA57C-66A7-43CF-9BF0-0F2A048B2B8C}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "Svn"
+		SccAuxPath = "Svn"
+		SccLocalPath = "Svn"
+		SccProvider = "SubversionScc"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{7188ddfd-314d-4bbd-8ad1-2ff1e8a268d1}|eBest.Mobile.SyncLogic.dll;{e8688507-5686-47f3-bb06-e47f0da625b5}|eBest.Mobile.SyncConfig.dll;{855BCD7C-0BB9-4F67-8B6D-4688FEFCC019}|eBest.Mobile.SyncEntities.dll;{a0dbc839-df4f-43bd-a1f0-8b614d1a07e6}|eBest.Mobile.SyncCommon.dll;{b1548bfe-ac17-425d-8ecf-db2f62c6da65}|eBest.Mobile.SyncHelper.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ISyncService"
+		Debug.AspNetCompiler.PhysicalPath = "ISyncService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ISyncService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ISyncService"
+		Release.AspNetCompiler.PhysicalPath = "ISyncService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ISyncService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8888"
+		VWDDynamicPort = "false"
+	EndProjectSection
+	ProjectSection(SvnOrigin) = preProject
+		@Keys = Enlist,Svn.Uri
+		Enlist = Required
+		Svn.Uri = ISyncService/
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBest.Mobile.SyncEntities", "eBest.Mobile.SyncEntities\eBest.Mobile.SyncEntities.csproj", "{855BCD7C-0BB9-4F67-8B6D-4688FEFCC019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBest.Mobile.SyncConfig", "eBest.Mobile.SyncConfig\eBest.Mobile.SyncConfig.csproj", "{E8688507-5686-47F3-BB06-E47F0DA625B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBest.Mobile.SyncCommon", "eBest.Mobile.SyncCommon\eBest.Mobile.SyncCommon.csproj", "{A0DBC839-DF4F-43BD-A1F0-8B614D1A07E6}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7188DDFD-314D-4BBD-8AD1-2FF1E8A268D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7188DDFD-314D-4BBD-8AD1-2FF1E8A268D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7188DDFD-314D-4BBD-8AD1-2FF1E8A268D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7188DDFD-314D-4BBD-8AD1-2FF1E8A268D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1548BFE-AC17-425D-8ECF-DB2F62C6DA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1548BFE-AC17-425D-8ECF-DB2F62C6DA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1548BFE-AC17-425D-8ECF-DB2F62C6DA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1548BFE-AC17-425D-8ECF-DB2F62C6DA65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8CA57C-66A7-43CF-9BF0-0F2A048B2B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8CA57C-66A7-43CF-9BF0-0F2A048B2B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8CA57C-66A7-43CF-9BF0-0F2A048B2B8C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8CA57C-66A7-43CF-9BF0-0F2A048B2B8C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{855BCD7C-0BB9-4F67-8B6D-4688FEFCC019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855BCD7C-0BB9-4F67-8B6D-4688FEFCC019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855BCD7C-0BB9-4F67-8B6D-4688FEFCC019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855BCD7C-0BB9-4F67-8B6D-4688FEFCC019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8688507-5686-47F3-BB06-E47F0DA625B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8688507-5686-47F3-BB06-E47F0DA625B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8688507-5686-47F3-BB06-E47F0DA625B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8688507-5686-47F3-BB06-E47F0DA625B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DBC839-DF4F-43BD-A1F0-8B614D1A07E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DBC839-DF4F-43BD-A1F0-8B614D1A07E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DBC839-DF4F-43BD-A1F0-8B614D1A07E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DBC839-DF4F-43BD-A1F0-8B614D1A07E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

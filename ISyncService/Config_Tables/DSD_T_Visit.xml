@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_Visit</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_Visit</I>
+    </Up>
+    <Columns>
+      <Column Name="VisitId" Type="System.String" />
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="StartTime" Type="System.DateTime" />
+      <Column Name="EndTime" Type="System.DateTime" />
+      <Column Name="UserCode" Type="System.String" />
+      <Column Name="AccountNumber" Type="System.String" />
+      <Column Name="Longitude" Type="System.Decimal" />
+      <Column Name="Latitude" Type="System.Decimal" />
+      <Column Name="NoScanReason" Type="System.String" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+    </Columns>
+  </Script>
+</Scripts>

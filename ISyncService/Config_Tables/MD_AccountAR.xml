@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_MD_AccountAR</Down>
+    <Columns>
+      <Column Name="ebMobile__AccountID__c" Type="System.String" />
+      <Column Name="ebMobile__Number__c" Type="System.String" />
+      <Column Name="ebMobile__IsActive__c" Type="System.String" />
+      <Column Name="BatchDeleteFlag__c" Type="System.String" />
+      <Column Name="ebMobile__BlockByCredit__c" Type="System.String" />
+      <Column Name="ebMobile__AvailableBalance__c" Type="System.Decimal" />
+      <Column Name="ebMobile__CreditLimit__c" Type="System.Decimal" />
+      <Column Name="ebMobile__DeliveryDate__c" Type="System.DateTime" />
+      <Column Name="ebMobile__DeliveryDocumentNumber__c" Type="System.String" />
+      <Column Name="ebMobile__ExternalID__c" Type="System.String" />
+      <Column Name="ebMobile__GUID__c" Type="System.String" />
+      <Column Name="ebMobile__InvestmentValue__c" Type="System.Decimal" />
+      <Column Name="ebMobile__InvoiceAmount__c" Type="System.Decimal" />
+      <Column Name="ebMobile__InvoiceDate__c" Type="System.DateTime" />
+      <Column Name="ebMobile__InvoiceDueDate__c" Type="System.DateTime" />
+      <Column Name="ebMobile__InvoiceNumber__c" Type="System.String" />
+      <Column Name="ebMobile__LastPayment__c" Type="System.DateTime" />
+      <Column Name="ebMobile__OpenAmount__c" Type="System.Decimal" />
+      <Column Name="ebMobile__PastOverDue__c" Type="System.Decimal" />
+      <Column Name="ebMobile__PaymentDate__c" Type="System.DateTime" />
+      <Column Name="ebMobile__RecordAction__c" Type="System.Decimal" />
+      <Column Name="ebMobile__Remarks__c" Type="System.String" />
+      <Column Name="SalesRoute__c" Type="System.String" />
+      <Column Name="ebMobile__ShipToAccountNumber__c" Type="System.String" />
+      <Column Name="ebMobile__TotalOpenAmount__c" Type="System.Decimal" />
+      <!--<Column Name="CreateUser" Type="System.String" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+      <Column Name="LastUpdateUser" Type="System.String" />-->
+      <Column Name="LastUpdateTime" Type="System.DateTime" />
+    </Columns>
+  </Script>
+</Scripts>

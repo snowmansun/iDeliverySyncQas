@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_ShipmentFinance</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_ShipmentFinance</I>
+    </Up>
+    <Columns>
+      <Column Name="HeaderId" Type="System.String" />
+      <Column Name="Type" Type="System.String" />      
+      <Column Name="Currency" Type="System.String" />      
+      <Column Name="ActualAmount" Type="System.Decimal" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+    </Columns>
+  </Script>
+  <Script Version="0.0.0.60">
+    <Down Type="Assembly">Download_DSD_T_ShipmentFinance60</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_ShipmentFinance60</I>
+    </Up>
+    <Columns>
+      <Column Name="HeaderId" Type="System.String" />
+      <Column Name="FinanceType" Type="System.String" />
+      <Column Name="Type" Type="System.String" />
+      <Column Name="Currency" Type="System.String" />
+      <Column Name="ActualAmount" Type="System.Decimal" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+    </Columns>
+  </Script>
+</Scripts>

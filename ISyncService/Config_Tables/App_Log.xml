@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_App_Log</Down>
+    <Up Type="Assembly">
+      <I>Upload_App_Log</I>
+    </Up>
+    <Columns>
+      <Column Name="ID" Type="System.String" />
+      <Column Name="VersionName" Type="System.String" />
+      <Column Name="Device" Type="System.String" />
+      <Column Name="Type" Type="System.String" />
+      <Column Name="Content" Type="System.String" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+      <Column Name="Note" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>

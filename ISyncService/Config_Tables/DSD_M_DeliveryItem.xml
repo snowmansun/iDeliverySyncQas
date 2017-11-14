@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_M_DeliveryItem</Down>
+    <Columns>
+      <Column Name="DeliveryNo" Type="System.String" />
+      <Column Name="ProductCode" Type="System.String" />
+      <Column Name="ProductUnit" Type="System.String" />
+      <Column Name="PlanQty" Type="System.Int" />
+      <Column Name="TotalWeight" Type="System.Decimal" />
+      <Column Name="WeightUnit" Type="System.Int" />
+      <Column Name="BasePrice" Type="System.Decimal" />
+      <Column Name="Tax" Type="System.Decimal" />
+      <Column Name="Discount" Type="System.Decimal" />
+      <Column Name="NetPrice" Type="System.Decimal" />
+      <Column Name="Deposit" Type="System.Decimal" />
+    </Columns>
+  </Script>
+</Scripts>

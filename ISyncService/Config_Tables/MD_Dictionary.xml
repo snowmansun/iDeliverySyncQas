@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_MD_Dictionary</Down>
+    <Columns>
+      <Column Name="Id" Type="System.Int" />
+      <Column Name="Category" Type="System.String" />
+      <Column Name="Value" Type="System.String" />
+      <Column Name="Description" Type="System.String" />
+      <Column Name="Valid" Type="System.String" />
+      <Column Name="Sequence" Type="System.Int" />
+    </Columns>
+  </Script>
+</Scripts>

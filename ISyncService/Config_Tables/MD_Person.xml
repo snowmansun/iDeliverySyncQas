@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_MD_Person</Down>
+    <Columns>
+      <Column Name="UserCode" Type="System.String" />
+      <Column Name="Password" Type="System.String" />
+      <Column Name="FirstName" Type="System.String" />
+      <Column Name="LastName" Type="System.String" />
+      <Column Name="Type" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>

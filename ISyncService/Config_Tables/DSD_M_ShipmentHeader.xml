@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_M_ShipmentHeader</Down>
+    <Columns>
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="ShipmentDate" Type="System.Date" />
+      <Column Name="ShipmentType" Type="System.String" />
+      <Column Name="Route" Type="System.String" />
+      <Column Name="Description" Type="System.String" />
+      <Column Name="ReleaseStatus" Type="System.String" />
+      <Column Name="ReleaseUser" Type="System.String" />
+      <Column Name="ReleaseTime" Type="System.DateTime" />
+      <Column Name="CompletionStatus" Type="System.String" />
+      <Column Name="CompletionTime" Type="System.DateTime" />
+      <Column Name="Driver1" Type="System.String" />
+      <Column Name="Driver2" Type="System.String" />
+      <Column Name="TruckCode" Type="System.String" />
+      <Column Name="TruckType" Type="System.String" />
+      <Column Name="LoadingSequence" Type="System.Int" />
+      <Column Name="WarehouseCode" Type="System.String" />
+      <Column Name="OutWarehouse" Type="System.String" />
+      <Column Name="TotalProductQty" Type="System.Int" />
+      <Column Name="TotalItemAmount" Type="System.Decimal" />
+      <Column Name="TotalWeight" Type="System.Decimal" />
+      <Column Name="WeightUnit" Type="System.String" />
+      <Column Name="DataSource" Type="System.String" />
+      <Column Name="TruckId" Type="System.Int" />
+
+    </Columns>
+  </Script>
+</Scripts>

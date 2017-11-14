@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_TruckStockTracking</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_TruckStockTracking</I>
+    </Up>
+    <Columns>
+      <Column Name="Id" Type="System.String" />
+      <Column Name="TruckId" Type="System.int" />
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="TrackingTime" Type="System.Datetime" />
+      <Column Name="ProductCode" Type="System.String" />
+      <Column Name="ProductUnit" Type="System.String" />
+      <Column Name="ChangeAction" Type="System.String" />
+      <Column Name="ChangeQuantity" Type="System.Int" />
+      <Column Name="FromQty" Type="System.Int" />
+      <Column Name="ToQty" Type="System.Int" />
+      <Column Name="CreateTime" Type="System.Datetime" />      
+    </Columns>
+  </Script>
+</Scripts>

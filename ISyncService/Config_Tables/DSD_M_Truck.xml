@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_M_Truck</Down>
+    <Columns>
+      <Column Name="ID" Type="System.Int" />
+      <Column Name="TruckCode" Type="System.String" />
+      <Column Name="Type" Type="System.String" />
+      <Column Name="Capacity" Type="System.Decimal" />
+      <Column Name="Volume" Type="System.Decimal" />
+      <Column Name="VolumeUnit" Type="System.String" />
+      <Column Name="CompanyCode" Type="System.String" />
+      <Column Name="SalesOrg" Type="System.String" />
+      <Column Name="SalesOff" Type="System.String" />
+      <Column Name="Status" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>

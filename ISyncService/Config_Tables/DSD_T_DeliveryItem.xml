@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_DeliveryItem</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_DeliveryItem</I>
+    </Up>
+    <Columns>
+      <Column Name="DeliveryNo" Type="System.String" />
+      <Column Name="ProductCode" Type="System.String" />
+      <Column Name="ProductUnit" Type="System.String" />
+      <Column Name="PlanQty" Type="System.int" />
+      <Column Name="ActualQty" Type="System.int" />
+      <Column Name="DifferenceQty" Type="System.int" />
+      <Column Name="Reason" Type="System.String" />
+      <Column Name="BasePrice" Type="System.Decimal" />
+      <Column Name="Tax" Type="System.Decimal" />
+      <Column Name="Discount" Type="System.Decimal" />
+      <Column Name="NetPrice" Type="System.Decimal" />
+      <Column Name="Deposit" Type="System.Decimal" />
+      <Column Name="IsReturn" Type="System.String" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+    </Columns>
+  </Script>
+</Scripts>

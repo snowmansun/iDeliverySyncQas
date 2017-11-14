@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_MD_Product</Down>
+    <Columns>
+      <Column Name="IsActive" Type="System.String" />
+      <Column Name="CreatedBy" Type="System.String" />
+      <Column Name="DisplayUrl" Type="System.String" />
+      <Column Name="ExternalDataSource" Type="System.String" />
+      <Column Name="ExternalId" Type="System.String" />
+      <Column Name="LastModifiedBy" Type="System.String" />
+      <Column Name="ProductCode" Type="System.String" key="true"/>
+      <Column Name="Description" Type="System.String" />
+      <Column Name="Family" Type="System.String" />
+      <Column Name="Name" Type="System.String" />
+      <Column Name="QuantityUnitOfMeasure" Type="System.String" />
+      <Column Name="ebMobile__BaseUOM__c" Type="System.String" />
+      <Column Name="ebMobile__BeverageCategory__c" Type="System.String" />
+      <Column Name="ebMobile__BeverageProduct__c" Type="System.String" />
+      <Column Name="ebMobile__BeverageType__c" Type="System.String" />
+      <Column Name="ebMobile__Brand__c" Type="System.String" />
+      <Column Name="ebMobile__CarbonationIndicator__c" Type="System.String" />
+      <Column Name="ebMobile__Category__c" Type="System.String" />
+      <Column Name="ebMobile__Category1__c" Type="System.String" />
+      <Column Name="ebMobile__Category2__c" Type="System.String" />
+      <Column Name="ebMobile__Category3__c" Type="System.String" />
+      <Column Name="ebMobile__Pack1__c" Type="System.String" />
+      <Column Name="ebMobile__Pack2__c" Type="System.String" />
+      <Column Name="ConversionRate__c" Type="System.Decimal" />
+      <Column Name="ebMobile__DeliveringPlant__c" Type="System.String" />
+      <Column Name="ebMobile__Denominator__c" Type="System.Decimal" />
+      <Column Name="ebMobile__DistributionChannel__c" Type="System.String" />
+      <Column Name="ebMobile__ErpProductCode__c" Type="System.String" />
+      <Column Name="ebMobile__Flavor__c" Type="System.String" />
+      <Column Name="ebMobile__GUID__c" Type="System.String" />
+      <Column Name="ebMobile__IndSector__c" Type="System.String" />
+      <Column Name="ebMobile__IANumber__c" Type="System.String" />
+      <Column Name="ebMobile__IsEmpty__c" Type="System.String" />
+      <Column Name="ebMobile__MatFrgtGrp__c" Type="System.String" />
+      <Column Name="ebMobile__MaterialGroup1__c" Type="System.String" />
+      <Column Name="ebMobile__MaterialGroup2__c" Type="System.String" />
+      <Column Name="ebMobile__MaterialGroup3__c" Type="System.String" />
+      <Column Name="ebMobile__MaterialGroup4__c" Type="System.String" />
+      <Column Name="ebMobile__MaterialGroup5__c" Type="System.String" />
+      <Column Name="ebMobile__MaterialPricingGroup__c" Type="System.String" />
+      <Column Name="ebMobile__Numerator__c" Type="System.Decimal" />
+      <Column Name="ebMobile__OOSFlag__c" Type="System.String" />
+      <Column Name="ebMobile__Package__c" Type="System.String" />
+      <Column Name="ebMobile__PackProductID__c" Type="System.String" />
+      <Column Name="ebMobile__Pack__c" Type="System.String" />
+      <Column Name="ebMobile__PackType__c" Type="System.String" />
+      <Column Name="ebMobile__PartProductID__c" Type="System.String" />
+      <Column Name="ebMobile__PhysicalState__c" Type="System.String" />
+      <Column Name="ebMobile__Plant__c" Type="System.String" />
+      <Column Name="ebMobile__PlantDeleteFlag__c" Type="System.String" />
+      <Column Name="ebMobile__PricingReferenceMaterial__c" Type="System.String" />
+      <Column Name="ebMobile__ProductGroup__c" Type="System.String" />
+      <Column Name="ebMobile__PromotionalIndicator__c" Type="System.String" />
+      <Column Name="ebMobile__RecordAction__c" Type="System.Decimal" />
+      <Column Name="ebMobile__PlRefMat__c" Type="System.String" />
+      <Column Name="ebMobile__ReturnablePackagingIndicator__c" Type="System.String" />
+      <Column Name="ebMobile__SalesOrg__c" Type="System.String" />
+      <Column Name="ebMobile__SalesUnit__c" Type="System.String" />
+      <Column Name="ebMobile__SalStatus__c" Type="System.String" />
+      <Column Name="ebMobile__Sequence__c" Type="System.String" />
+      <Column Name="ebMobile__SFAGroup__c" Type="System.String" />
+      <Column Name="ebMobile__TaxClass__c" Type="System.String" />
+      <Column Name="ebMobile__TaxType__c" Type="System.String" />
+      <Column Name="ebMobile__Trademark__c" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>

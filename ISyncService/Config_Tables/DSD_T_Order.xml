@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_Order</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_Order</I>
+    </Up>
+    <Columns>
+      <Column Name="AccountNumber" Type="System.String" />
+      <Column Name="PONumber" Type="System.String" />
+      <Column Name="ebMobile__DeliveryNotes__c" Type="System.String" />
+      <Column Name="ebMobile__DepositAmount__c" Type="System.Double" />
+      <Column Name="ebMobile__DiscAmount__c" Type="System.Double" />
+      <Column Name="ebMobile__DispatchMessage__c" Type="System.String" />
+      <Column Name="ebMobile__NetAmount__c" Type="System.Double" />
+      <Column Name="OrderNumber" Type="System.String" />
+      <Column Name="ebMobile__OrderSource__c" Type="System.String" />
+      <Column Name="Type" Type="System.String" />
+      <Column Name="ebMobile__Remark__c" Type="System.String" />
+      <Column Name="ebMobile__ReqDeliveryDate__c" Type="System.DateTime" />
+      <Column Name="Status" Type="System.String" />
+      <Column Name="ebMobile__TaxAmount__c" Type="System.Double" />
+      <Column Name="ebMobile__TotalAmount__c" Type="System.Double" />
+      <Column Name="ebMobile__TotalQuantityCS__c" Type="System.Double" />
+      <Column Name="ebMobile__TotalQuantityEA__c" Type="System.Double" />
+      <Column Name="ebMobile__OrderDate__c" Type="System.DateTime" />
+      <Column Name="ebMobile__VisitID__c" Type="System.String" />
+      <Column Name="ebMobile__VisitDate__c" Type="System.DateTime" />
+      <Column Name="ebMobile__IsActive__c" Type="System.String=" />
+     </Columns>
+  </Script>
+</Scripts>

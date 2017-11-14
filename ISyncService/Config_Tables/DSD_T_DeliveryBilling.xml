@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_DeliveryBilling</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_DeliveryBilling</I>
+    </Up>
+    <Columns>
+      <Column Name="BillingId" Type="System.String" />
+      <Column Name="DeliveryNo" Type="System.String" />
+      <Column Name="PaymentType" Type="System.String" />
+      <Column Name="Currency" Type="System.String" />
+      <Column Name="PaymentAmount" Type="System.Decimal" />
+      <Column Name="PaymentDeposit" Type="System.Decimal" />
+      <Column Name="PaymentInfo1" Type="System.String" />
+      <Column Name="PaymentInfo2" Type="System.String" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+    </Columns>
+  </Script>
+</Scripts>

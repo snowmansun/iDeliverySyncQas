@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_Payment</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_Payment</I>
+    </Up>
+    <Columns>
+      <Column Name="ID" Type="System.String" />
+      <Column Name="ebMobile__IsActive__c" Type="System.String" />
+      <Column Name="ebMobile__Amount__c" Type="System.Decimal" />
+      <Column Name="ebMobile__ARCollection__c" Type="System.String" />
+      <Column Name="ebMobile__BankName__c" Type="System.String" />
+      <Column Name="ebMobile__ChequeDate__c" Type="System.Decimal" />
+      <Column Name="ebMobile__ChequeNumber__c" Type="System.String" />
+      <Column Name="ebMobile__GUID__c" Type="System.String" />
+      <Column Name="ebMobile__Notes__c" Type="System.String" />
+      <Column Name="ebMobile__PaymentType__c" Type="System.String" />
+      <Column Name="CreateTime" Type="System.DateTime" />
+    </Columns>
+  </Script>
+</Scripts>

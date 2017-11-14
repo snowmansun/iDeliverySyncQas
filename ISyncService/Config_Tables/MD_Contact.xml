@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_MD_Contact</Down>
+    <Columns>
+      <Column Name="ID" Type="System.String" />
+      <Column Name="AssistantName" Type="System.String" />
+      <Column Name="AssistantPhone" Type="System.String" />
+      <Column Name="Birthdate" Type="System.Date" />
+      <Column Name="Owner" Type="System.String" />
+      <Column Name="CreatedBy" Type="System.String" />
+      <Column Name="Jigsaw" Type="System.String" />
+      <Column Name="Department" Type="System.String" />
+      <Column Name="Description" Type="System.String" />
+      <Column Name="DoNotCall" Type="System.String" />
+      <Column Name="Email" Type="System.String" />
+      <Column Name="HasOptedOutOfEmail" Type="System.String" />
+      <Column Name="Fax" Type="System.String" />
+      <Column Name="HasOptedOutOfFax" Type="System.String" />
+      <Column Name="HomePhone" Type="System.String" />
+      <Column Name="LastModifiedBy" Type="System.String" />
+      <Column Name="LastCURequestDate" Type="System.DateTime" />
+      <Column Name="LastCUUpdateDate" Type="System.DateTime" />
+      <Column Name="LeadSource" Type="System.String" />
+      <Column Name="MailingAddress" Type="System.String" />
+      <Column Name="MobilePhone" Type="System.String" />
+      <Column Name="Name" Type="System.String" />
+      <Column Name="Salutation" Type="System.String" />
+      <Column Name="FirstName" Type="System.String" />
+      <Column Name="LastName" Type="System.String" />
+      <Column Name="OtherAddress" Type="System.String" />
+      <Column Name="OtherPhone" Type="System.String" />
+      <Column Name="Phone" Type="System.String" />
+      <Column Name="ReportsTo" Type="System.String" />
+      <Column Name="Title" Type="System.String" />
+      <Column Name="AccountNumber__c" Type="System.String" />
+      <Column Name="ebMobile__IsActive__c" Type="System.String" />
+      <Column Name="ebMobile__Anniversary__c" Type="System.Date" />
+      <Column Name="ebMobile__CustomerOnboarding__c" Type="System.String" />
+      <Column Name="ebMobile__ExternalID__c" Type="System.String" />
+      <Column Name="ebMobile__Facebook__c" Type="System.String" />
+      <Column Name="ebMobile__GUID__c" Type="System.String" />
+      <Column Name="ebMobile__Hobbies__c" Type="System.String" />
+      <Column Name="ebMobile__Married__c" Type="System.String" />
+      <Column Name="ebMobile__OnboardingUser__c" Type="System.String" />
+      <Column Name="ebMobile__Primary__c" Type="System.String" />
+      <Column Name="ebMobile__RecordAction__c" Type="System.Decimal" />
+      <Column Name="CCSM_SAP_Contact_ID__c" Type="System.String" />
+      <Column Name="ebMobile__Spouse__c" Type="System.String" />
+      <Column Name="ebMobile__Title__c" Type="System.String" />
+      <Column Name="ebMobile__Twitter__c" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_T_TruckStock</Down>
+    <Up Type="Assembly">
+      <I>Upload_DSD_T_TruckStock</I>
+    </Up>
+    <Columns>
+      <Column Name="TruckId" Type="System.Int" />
+      <Column Name="ShipmentNo" Type="System.String" />
+      <Column Name="ProductCode" Type="System.String" />
+      <Column Name="ProductUnit" Type="System.String" />
+      <Column Name="StockQty" Type="System.Int" />
+      <Column Name="SaleableQty" Type="System.String" />
+      <Column Name="CreateTime" Type="System.Datetime" />
+    </Columns>
+  </Script>
+</Scripts>

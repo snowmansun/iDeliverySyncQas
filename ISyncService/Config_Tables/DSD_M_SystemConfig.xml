@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Scripts>
+  <Script Version="V2">
+    <Down Type="Assembly">Download_DSD_M_SystemConfig</Down>
+    <Columns>
+      <Column Name="Category" Type="System.String" />
+      <Column Name="KeyName" Type="System.String" />
+      <Column Name="Description" Type="System.String" />
+      <Column Name="Value" Type="System.String" />
+      <Column Name="Valid" Type="System.String" />
+    </Columns>
+  </Script>
+</Scripts>
